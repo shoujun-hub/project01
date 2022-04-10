@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git+github</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <!-- 
@@ -173,6 +175,14 @@
         撤销对文件的修改指的是：把对工作区中对应文件的修改，还原成git仓库中所保存的版本
         操作的结果是：所有的修改会丢失，且无法恢复！危险性比较高，请慎重操作！
         撤销操作的本质：用git仓库中保存的文件，覆盖工作区中指定的文件
+
+        3.9.8 向暂存区中一次性添加多个文件 ： git add .
+
+        3.9.9  取消暂存的文件： git reset HEAD 要移除的文件名称
+        取消所有暂存的文件： git reset HEAD . 
+
+        4.0.1 跳过使用暂存区: git commit -a -m "描述消息"
     -->
+    <h2>你好啊</h2>
 </body>
 </html>
